@@ -10,6 +10,9 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Set;
 
+/**
+ * Parse JSON events to generate event objects for ingestion
+ */
 public class ParseJSON {
 
     private static DateFormat format = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.S");

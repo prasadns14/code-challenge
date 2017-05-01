@@ -8,6 +8,10 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.List;
 
+/**
+ * Sample application to test the code. Ingesting the events in input/input.txt and outputting top 10 customers by LTV score
+ * in file output/output.txt
+ */
 public class SampleLTVApplication {
 
     public static void main(String[] args) throws Exception {
